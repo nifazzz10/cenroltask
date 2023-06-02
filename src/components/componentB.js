@@ -4,17 +4,22 @@ import "../styles.css";
 const ComponentB = ({ cendol }) => {
   const [value, setValue] = useState(cendol);
   //intial state 2 from component A
-
+let buttonColor="";
+let circleColor="";
   const handleClick = () => {
-    setValue(value + 10); //increment 10
     setCount(count + 1); //increment 1
     setIsButtonVisible(!isButtonVisible); //change color
   };
+  const handleClick2 = () => {
+    setCount(count + 10); //increment 10
+    setValue(value + 10); //increment 10
+  };
+
   const [count, setCount] = useState(0);
   const [isButtonVisible, setIsButtonVisible] = useState(true);
 
-  const buttonColor = isButtonVisible ? "red" : "blue";
-  const circleColor = isButtonVisible ? buttonColor : "blue";
+   
+buttonColor= circleColor = isButtonVisible ? "red" : "blue";
 
   return (
     <div className="componentB">
@@ -29,16 +34,22 @@ const ComponentB = ({ cendol }) => {
           className="counter-circle"
           style={{ backgroundColor: circleColor }}
         >
-          <h2>{count}</h2>
+          <h1>
+            {count}{" "}
+            <button className="increment" onClick={handleClick2}>
+              Click to increase counter
+            </button>
+          </h1>
+          <br />
         </div>
-        <button
-          className="button-counter"
-          style={{ backgroundColor: buttonColor }}
-          onClick={handleClick}
-        >
-          Button
-        </button>
       </div>
+      <button
+        className="button-counter"
+        style={{ backgroundColor: buttonColor }}
+        onClick={handleClick}
+      >
+        Change Color
+      </button>
     </div>
   );
 };
