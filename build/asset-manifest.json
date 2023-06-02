@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cenroltask/static/css/main.e485a673.css",
+    "main.js": "/cenroltask/static/js/main.adc4de40.js",
+    "index.html": "/cenroltask/index.html",
+    "main.e485a673.css.map": "/cenroltask/static/css/main.e485a673.css.map",
+    "main.adc4de40.js.map": "/cenroltask/static/js/main.adc4de40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e485a673.css",
+    "static/js/main.adc4de40.js"
+  ]
+}
