@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cenroltask/static/css/main.e485a673.css",
-    "main.js": "/cenroltask/static/js/main.adc4de40.js",
+    "main.css": "/cenroltask/static/css/main.3cda3e99.css",
+    "main.js": "/cenroltask/static/js/main.d76c43c0.js",
     "index.html": "/cenroltask/index.html",
-    "main.e485a673.css.map": "/cenroltask/static/css/main.e485a673.css.map",
-    "main.adc4de40.js.map": "/cenroltask/static/js/main.adc4de40.js.map"
+    "main.3cda3e99.css.map": "/cenroltask/static/css/main.3cda3e99.css.map",
+    "main.d76c43c0.js.map": "/cenroltask/static/js/main.d76c43c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.e485a673.css",
-    "static/js/main.adc4de40.js"
+    "static/css/main.3cda3e99.css",
+    "static/js/main.d76c43c0.js"
   ]
 }
