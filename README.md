@@ -1,3 +1,9 @@
+Note:
+Here as you mentioned i have made all the question in an single output if you click change color button the incremet will be added 1 and button color will be in circle in the circle click to increment button will increment 10 to the counter
+
+
+
+Funtionality
 
 `ComponentA` is a React functional component that renders `ComponentB` and passes a prop `cendol` with a value of 2.
 
