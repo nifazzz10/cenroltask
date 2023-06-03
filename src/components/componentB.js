@@ -3,6 +3,9 @@ import "../styles.css";
 
 const ComponentB = ({ cendol }) => {
   const [value, setValue] = useState(cendol);
+  const [count, setCount] = useState(0);
+  const [isButtonVisible, setIsButtonVisible] = useState(true);
+
   //intial state 2 from component A
 let buttonColor="";
 let circleColor="";
@@ -15,8 +18,6 @@ let circleColor="";
     setValue(value + 10); //increment 10
   };
 
-  const [count, setCount] = useState(0);
-  const [isButtonVisible, setIsButtonVisible] = useState(true);
 
    
 buttonColor= circleColor = isButtonVisible ? "red" : "blue";
